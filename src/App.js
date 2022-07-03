@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import TextForm from './Components/TextForm';
+import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 import React, { useState } from 'react'
-import Alert from './Components/Alert';
-import About from './Components/About';
+import Alert from './components/Alert';
+import About from './components/About';
 
 function App() {
   const [mode, setMode] = useState('light');
